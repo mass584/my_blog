@@ -24,9 +24,6 @@
           <h2>
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </h2>
-          <div class="post-meta">
-            <?php echo get_the_date(); ?>（更新:<?php echo get_the_modified_date(); ?>）
-          </div>
         </div>
         <div class="post-body">
           <p><?php the_content(); ?></p>

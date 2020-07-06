@@ -217,6 +217,7 @@ article {
 }
 
 .post-image img {
+  height: auto;
   width: 100%;
 }
 
