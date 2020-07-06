@@ -29,13 +29,8 @@ a {
   text-decoration: none;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
 li {
-  list-style: none;
+  line-height: 1.8;
 }
 
 p {
@@ -106,11 +101,17 @@ header .header-info {
   }
 }
 
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
 .menu li {
   color: #333;
   cursor: pointer;
   font-size: 12px;
   line-height: 3;
+  list-style: none;
   text-align: center;
   width: 150px;
 }
@@ -158,8 +159,14 @@ nav.breadcrumb {
   padding: 8px 15px;
 }
 
+nav.breadcrumb ul {
+  padding: 0;
+  margin: 0;
+}
+
 nav.breadcrumb li {
   display: inline;
+  list-style: none;
 }
 
 nav.breadcrumb li + li:before {
@@ -222,6 +229,12 @@ article {
   padding: 20px 25px;
   overflow: hidden;
   flex: 1;
+}
+
+@media (max-width: 600px) {
+  .post-body {
+    padding: 0 10px;
+  }
 }
 
 .post-body p {
@@ -289,8 +302,14 @@ aside {
   font-weight: bold;
 }
 
+.widget ul {
+  padding: 0;
+  margin: 0;
+}
+
 .widget li {
   line-height: 1.8;
+  list-style: none;
 }
 
 /* footer */
@@ -300,4 +319,26 @@ footer {
   font-size: 12px;
   padding: 15px 0;
   text-align: center;
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px 10px
+}
+
+.wp-block-table {
+  margin: 14px 0;
 }
