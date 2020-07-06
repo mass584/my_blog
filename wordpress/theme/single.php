@@ -14,7 +14,7 @@
     <section id="posts">
       <nav class="breadcrumb">
         <ul>
-          <li><a href="/">ホーム</a></li>
+          <li><a href="/">&#x1F3E0; ホーム</a></li>
           <li><?php the_category(', '); ?></li>
           <li><?php the_title(); ?></li>
         <ul>

@@ -14,7 +14,7 @@
     <section id="posts">
       <nav class="breadcrumb">
         <ul>
-          <li><a href="/">ホーム</a></li>
+          <li><a href="/">&#x1F3E0; ホーム</a></li>
         <ul>
       </nav>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
