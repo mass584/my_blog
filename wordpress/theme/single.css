@@ -1,0 +1,41 @@
+/* header */
+.post-body h2 {
+  background-color: #fff;
+  border-left: 15px solid #dbcaaa; 
+  padding: 30px 25px;
+  margin-top: 25px;
+}
+
+.post-body h3 {
+  background-color: #fff;
+  border-left: 10px solid #dbcaaa; 
+  padding: 10px 20px;
+  margin-top: 25px;
+}
+
+.post-body h4 {
+  border-left: 10px solid #dbcaaa; 
+  padding: 10px 15px;
+}
+
+/* table */
+.post-body table {
+  border-collapse: collapse;
+}
+
+.post-body tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.post-body tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.post-body td {
+  border: 1px solid #ddd;
+  padding: 8px 10px
+}
+
+.wp-block-table {
+  margin: 14px 0;
+}
